@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+	 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<script type="text/javascript" charset="utf-8" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/rem.js"></script>
+  </head>
+	<body>
+		<div class="container">
+			<div class="sk-map">
+				<div class="sk-yc sk-li">
+					<div class="w96">
+						<div class="sk-yc-head">
+							<div class="sk-yc-img"><img src="img/img-2.png"></div>
+							<div class="sk-yc-mes">	收费站异常	</div>
+							<div class="sk-yc-time">1小时8分钟</div>
+						</div>
+						<div class="sk-li-f blod">
+								昌铜高速异常天气注意安全。
+						</div>
+						<div class="sk-li-f blod">
+							<span class="sk-li-g">路段名称：郭庄站</span> 		
+						</div>
+						<div class="sk-li-f blod">
+							<span class="sk-li-g">桩号：K092+500</span> 		
+						</div>
+						<div class="sk-yc-bottom blod">
+							距离您约：323.23km
+						</div>
+					</div>
+					<div class="sk-yc-s">
+						<div class="sk-yc-l"></div>
+					</div>
+				</div>
+				<img style="width:100%;" src="img/img1.png">
+			</div>
+		</div>	
+
+	</body>
+	<script type="text/javascript">
+			$(".sk-yc-l").click(function(){
+		 		 $(this).toggleClass("on");
+		 		  $(".sk-yc .blod").toggle();
+			});
+	</script>
+</html>

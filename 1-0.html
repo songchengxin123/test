@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+	 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<script type="text/javascript" charset="utf-8" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/rem.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<link rel="stylesheet" href="css/swiper.min.css">
+
+  </head>
+	<body>
+		<div class="container">
+			<div class="cnt-search stop-box ">
+				<div class="w96">
+
+					<div class="search-box top-search flex flex-c-c flex-1">
+						<img src="img/s-84.png" class="ser-img" alt="">
+						<input type="text" placeholder="搜索" class="search-input flex-1">
+					</div>
+					<div class="logo"><img src="img/s-19.png"></div>
+				</div>
+			</div>
+
+			<div class="index-top clearfix">
+				<div class="erwei"><img src="img/s-15.png"></div>
+				<div class="swiper-container" style="height: 100%;">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="img/s-16.png" alt=""></div>
+			       <div class="swiper-slide"><img src="img/s-16.png" alt=""></div>
+			       <div class="swiper-slide"><img src="img/s-16.png" alt=""></div>
+			        </div>   
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+				
+				</div>
+			</div>
+			<div class="longText">
+					<img src="img/s-17.png" class="horn"> 
+					<marquee class="longTextWord">江西婺源看油菜花海2天1日精品自驾游招募啦~超长文字测试~超长文字测试~超长文字测试</marquee>
+			</div>
+			<table class="table table-s"border="none" bordercolor="#000000" cellspacing="0px" style=""> 
+				<tr> 
+					<td><img src="img/s-4.png" class="img"><img class="hot" src="img/hot.gif"><div class="mes">景点推荐</div></td>
+					<td><img src="img/s-4.png" class="img"><div class="mes">景点推荐</div></td>
+					<td><img src="img/s-4.png" class="img"><div class="mes">景点推荐</div></td>
+					<td><img src="img/s-4.png" class="img"><div class="mes">景点推荐</div></td>
+				</tr>
+				<tr> 
+					<td><img src="img/s-4.png" class="img"><div class="mes">景点推荐</div></td>
+					<td><img src="img/s-4.png" class="img"><div class="mes">景点推荐</div></td>
+					<td><img src="img/s-4.png" class="img"><div class="mes">景点推荐</div></td>
+					<td><img src="img/s-4.png" class="img"><div class="mes">景点推荐</div></td>
+				</tr>
+			</table>
+
+			<div class="tb-box">
+				<div class="w92"> 
+					<div class="tit">特别推荐</div>
+					<ul class="tb-ul"> 
+						<li class="left">
+							<img class="img" src="img/s-18.png">
+							<div class="mes">三清山一日游</div>
+						</li>
+						<li class="right">
+							<img class="img" src="img/s-18.png">
+							<div class="mes">三清山一日游</div>
+						</li>
+						<li class="left">
+							<img class="img" src="img/s-18.png">
+							<div class="mes">三清山一日游</div>
+						</li>
+						<li class="right">
+							<img class="img" src="img/s-18.png">
+							<div class="mes">三清山一日游</div>
+						</li>
+					</ul>
+				</div> 
+			</div>
+			<div class="foot-line"></div>
+			<div class="foot-s "> 
+				<div class="foot-li fax ">
+					<div class="img-box"></div>
+				</div>
+				<div class="foot-li zhuy on">
+					<div class="img-box"></div>
+				</div>
+				<div class="foot-li wod ">
+					<div class="img-box"></div>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$(".foot-s .foot-li").click(function(){
+					$(this).addClass("on");
+					$(this).siblings(".foot-li").removeClass("on");
+
+				});
+			</script>
+		</div>	
+
+	</body>
+	<script type="text/javascript"> 
+$(function(){
+
+		  var mySwiper = new Swiper ('.swiper-container', {
+			    // direction: 'vertical',
+			    autoplay:2000,
+			    autoplayDisableOnInteraction : false,
+			    // 如果需要分页器
+			    pagination: '.swiper-pagination',
+			    
+			    // 如果需要前进后退按钮
+			    // nextButton: '.swiper-button-next',
+			    // prevButton: '.swiper-button-prev',
+			    
+			    // 如果需要滚动条
+			  // scrollbar: '.swiper-scrollbar',
+		  })             
+
+	})
+</script>	
+</html>

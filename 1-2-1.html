@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+	 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<script type="text/javascript" charset="utf-8" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/rem.js"></script>
+  </head>
+	<body>
+		<div class="container">
+			<div class="shik">
+				<img src="img/img1.png" width="100%"height="100%">
+				<div class="tc-shik">
+					<div class="bgzz"></div>
+					<ul class="ul-shik">
+						<div class="shik1">
+							<div>当前高速为：</div>
+							<div class="yellow">昌铜高速</div>
+						</div>
+						<li>昌铜高速昌铜高速昌铜高速</li>
+						<li>昌铜高速昌铜高速昌铜高速</li>
+						<li class="on">昌铜高速昌铜高速昌铜高速</li>
+					</ul>
+						<script type="text/javascript">
+							$(".ul-shik li").click(function(){
+								$(this).addClass("on");
+								$(this).siblings("li").removeClass("on");
+
+							});
+						</script>
+				</div>
+			</div>
+			<div class="foot-li zhuy on">
+					<div class="img-box"></div>
+				</div>
+				<div class="foot-li wod ">
+					<div class="img-box"></div>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$(".foot-s .foot-li").click(function(){
+					$(this).addClass("on");
+					$(this).siblings(".foot-li").removeClass("on");
+				});
+			</script>
+		</div>	
+
+	</body>
+</html>
